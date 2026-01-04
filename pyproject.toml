@@ -1,7 +1,15 @@
 [project]
 name = "malaria-cells-detect"
 version = "0.1.0"
-description = "Add your description here"
+description = "Detecção de células de malária usando YOLO"
 readme = "README.md"
-requires-python = ">=3.13"
-dependencies = []
+requires-python = ">=3.9"
+dependencies = [
+    "ultralytics>=8.0.0",
+    "torch>=2.0.0",
+    "torchvision>=0.15.0",
+    "opencv-python>=4.8.0",
+    "matplotlib>=3.7.0",
+    "pandas>=2.0.0",
+    "pillow>=10.0.0",
+]

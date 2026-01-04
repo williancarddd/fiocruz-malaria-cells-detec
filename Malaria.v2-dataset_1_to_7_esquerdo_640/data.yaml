@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['p.falciparum', 'p.vivax']
+
+roboflow:
+  workspace: fiocruz
+  project: malaria-nq3nz
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/fiocruz/malaria-nq3nz/dataset/2
